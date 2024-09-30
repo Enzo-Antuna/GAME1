@@ -43,7 +43,7 @@ const tempo = document.getElementById('pontos')
 const contador = setInterval(() =>{
     pontos++
     tempo.innerText = `${pontos}`;
-}, 100);
+}, 10);
 
 
 });
