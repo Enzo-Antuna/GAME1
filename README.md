@@ -1,2 +1,3 @@
 # GAME1
-meu primeiro traballho utilizando java script
+Primeiro projeto com javascript incluido
+Jogo feito com javascript, html, css
