@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
    background-color: #333;
+   overflow: hidden;
 }
 .titulo{
-    font-weight: bold;
+    
     width: 30%;
     color: #fff;
     margin: 0 auto;
+}
+h1{
+    font-weight: bold;
 }
 .quadro-de-jogo{
     top: 100px;
@@ -28,6 +32,16 @@
     font-size: 30px;
  left:690px;
 }
+#pontosm{
+    background-color: #fff;
+    position: absolute;
+    left: 10px;
+    font-size: 30px;
+ 
+}
+
+
+
 .correndo{
     height: 100px;
     width: auto;
@@ -58,6 +72,15 @@
     
    animation: armadilha-animation 1s infinite linear; 
 }
+.armadilha2{
+    height: 40px;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    
+   animation: armadilha-animation 0.6s infinite linear; 
+}
 @keyframes armadilha-animation{
     from{
 right: 0;
@@ -83,4 +106,17 @@ right: 0;
     100%{
         bottom: 0;
     }
+}
+.botao{
+    
+    width: 30%;
+    color: #fff;
+    margin: 43%; 
+    margin-top:8% ;
+}
+button{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 50px;
+   
 }
